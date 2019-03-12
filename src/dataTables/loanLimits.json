@@ -1,0 +1,3066 @@
+[
+    {
+        "County": "Utah - BEAVER",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Utah - BOX ELDER",
+        "Conforming": "453100",
+        "FHA": "389850",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Utah - CACHE",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Utah - CARBON",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Utah - DAGGETT",
+        "Conforming": "453100",
+        "FHA": "302450",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Utah - DAVIS",
+        "Conforming": "453100",
+        "FHA": "389850",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Utah - DUCHESNE",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Utah - EMERY",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Utah - GARFIELD",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Utah - GRAND",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Utah - IRON",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Utah - JUAB",
+        "Conforming": "453100",
+        "FHA": "341550",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Utah - KANE",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Utah - MILLARD",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Utah - MORGAN",
+        "Conforming": "453100",
+        "FHA": "389850",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Utah - PIUTE",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Utah - RICH",
+        "Conforming": "453100",
+        "FHA": "296700",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Utah - SALT LAKE",
+        "Conforming": "600300",
+        "FHA": "356500",
+        "VA": "600300",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Utah - SAN JUAN",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Utah - SANPETE",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Utah - SEVIER",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Utah - SUMMIT",
+        "Conforming": "679650",
+        "FHA": "679650",
+        "VA": "679650",
+        "Jumbo": "1000000",
+        "> 625000": true
+    },
+    {
+        "County": "Utah - TOOELE",
+        "Conforming": "600300",
+        "FHA": "356500",
+        "VA": "600300",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Utah - UINTAH",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Utah - UTAH",
+        "Conforming": "453100",
+        "FHA": "341550",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Utah - WASATCH",
+        "Conforming": "453100",
+        "FHA": "428950",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Utah - WASHINGTON",
+        "Conforming": "453100",
+        "FHA": "323150",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Utah - WAYNE",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Utah - WEBER",
+        "Conforming": "453100",
+        "FHA": "389850",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Idaho - ADA",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Idaho - ADAMS",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Idaho - BANNOCK",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Idaho - BEAR LAKE",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Idaho - BENEWAH",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Idaho - BINGHAM",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Idaho - BLAINE",
+        "Conforming": "625500",
+        "FHA": "646300",
+        "VA": "625500",
+        "Jumbo": "1000000",
+        "> 625000": true
+    },
+    {
+        "County": "Idaho - BOISE",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Idaho - BONNER",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Idaho - BONNEVILLE",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Idaho - BOUNDARY",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Idaho - BUTTE",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Idaho - CAMAS",
+        "Conforming": "625500",
+        "FHA": "646300",
+        "VA": "625500",
+        "Jumbo": "1000000",
+        "> 625000": true
+    },
+    {
+        "County": "Idaho - CANYON",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Idaho - CARIBOU",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Idaho - CASSIA",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Idaho - CLARK",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Idaho - CLEARWATER",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Idaho - CUSTER",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Idaho - ELMORE",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Idaho - FRANKLIN",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Idaho - FREMONT",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Idaho - GEM",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Idaho - GOODING",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Idaho - IDAHO",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Idaho - JEFFERSON",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Idaho - JEROME",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Idaho - KOOTENAI",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Idaho - LATAH",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Idaho - LEMHI",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Idaho - LEWIS",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Idaho - LINCOLN",
+        "Conforming": "625500",
+        "FHA": "646300",
+        "VA": "625500",
+        "Jumbo": "1000000",
+        "> 625000": true
+    },
+    {
+        "County": "Idaho - MADISON",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Idaho - MINIDOKA",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Idaho - NEZ PERCE",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Idaho - ONEIDA",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Idaho - OWYHEE",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Idaho - PAYETTE",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Idaho - POWER",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Idaho - SHOSHONE",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Idaho - TETON",
+        "Conforming": "679650",
+        "FHA": "679650",
+        "VA": "679650",
+        "Jumbo": "1000000",
+        "> 625000": true
+    },
+    {
+        "County": "Idaho - TWIN FALLS",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Idaho - VALLEY",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Idaho - WASHINGTON",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Colorado - ADAMS",
+        "Conforming": "529000",
+        "FHA": " 529000 ",
+        "VA": "529000",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Colorado - ALAMOSA",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Colorado - ARCHULETA",
+        "Conforming": "529000",
+        "FHA": " 294515 ",
+        "VA": "529000",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Colorado - BACA",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Colorado - BENT",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Colorado - BOULDER",
+        "Conforming": "453100",
+        "FHA": " 578450 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Colorado - BROOMFIELD",
+        "Conforming": "578450",
+        "FHA": " 529000 ",
+        "VA": "578450",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Colorado - CHAFFEE",
+        "Conforming": "529000",
+        "FHA": " 301300 ",
+        "VA": "529000",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Colorado - CHEYENNE",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Colorado - CLEAR CREEK",
+        "Conforming": "453100",
+        "FHA": " 529000 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Colorado - COSTILLA",
+        "Conforming": "529000",
+        "FHA": " 294515 ",
+        "VA": "529000",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Colorado - CROWLEY",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Colorado - CUSTER",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Colorado - DENVER",
+        "Conforming": "453100",
+        "FHA": " 529000 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Colorado - DOLORES",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Colorado - DOUGLAS",
+        "Conforming": "453100",
+        "FHA": " 529000 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Colorado - EL PASO",
+        "Conforming": "529000",
+        "FHA": " 304750 ",
+        "VA": "529000",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Colorado - ELBERT",
+        "Conforming": "453100",
+        "FHA": " 529000 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Colorado - FREMONT",
+        "Conforming": "529000",
+        "FHA": " 294515 ",
+        "VA": "529000",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Colorado - GARFIELD",
+        "Conforming": "636150",
+        "FHA": " 679650 ",
+        "VA": "636150",
+        "Jumbo": "1000000",
+        "> 625000": true
+    },
+    {
+        "County": "Colorado - GILPIN",
+        "Conforming": "453100",
+        "FHA": " 529000 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Colorado - GRAND",
+        "Conforming": "529000",
+        "FHA": " 373750 ",
+        "VA": "529000",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Colorado - GUNNISON",
+        "Conforming": "453100",
+        "FHA": " 357650 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Colorado - HINSDALE",
+        "Conforming": "679650",
+        "FHA": " 427800 ",
+        "VA": "679650",
+        "Jumbo": "1000000",
+        "> 625000": true
+    },
+    {
+        "County": "Colorado - HUERFANO",
+        "Conforming": "529000",
+        "FHA": " 294515 ",
+        "VA": "529000",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Colorado - JACKSON",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Colorado - KIOWA",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Colorado - KIT CARSON",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Colorado - LA PLATA",
+        "Conforming": "453100",
+        "FHA": " 391000 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Colorado - LAKE",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Colorado - LARIMER",
+        "Conforming": "529000",
+        "FHA": " 402500 ",
+        "VA": "529000",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Colorado - LAS ANIMAS",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Colorado - LOGAN",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Colorado - MINERAL",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Colorado - MONTEZUMA",
+        "Conforming": "625500",
+        "FHA": " 294515 ",
+        "VA": "625500",
+        "Jumbo": "1000000",
+        "> 625000": true
+    },
+    {
+        "County": "Colorado - MONTROSE",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Colorado - OTERO",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Colorado - OURAY",
+        "Conforming": "453100",
+        "FHA": " 425500 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Colorado - PARK",
+        "Conforming": "453100",
+        "FHA": " 529000 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Colorado - PHILLIPS",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Colorado - PITKIN",
+        "Conforming": "453100",
+        "FHA": " 679650 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Colorado - PROWERS",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Colorado - PUEBLO",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Colorado - RIO BLANCO",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Colorado - ROUTT",
+        "Conforming": "625500",
+        "FHA": " 634800 ",
+        "VA": "625500",
+        "Jumbo": "1000000",
+        "> 625000": true
+    },
+    {
+        "County": "Colorado - SAGUACHE",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Colorado - SAN JUAN",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Colorado - SAN MIGUEL",
+        "Conforming": "625500",
+        "FHA": " 679650 ",
+        "VA": "625500",
+        "Jumbo": "1000000",
+        "> 625000": true
+    },
+    {
+        "County": "Colorado - SEDGWICK",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Colorado - SUMMIT",
+        "Conforming": "625500",
+        "FHA": " 679650 ",
+        "VA": "625500",
+        "Jumbo": "1000000",
+        "> 625000": true
+    },
+    {
+        "County": "Colorado - TELLER",
+        "Conforming": "453100",
+        "FHA": " 304750 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Colorado - WASHINGTON",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Colorado - WELD",
+        "Conforming": "453100",
+        "FHA": " 358800 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Colorado - YUMA",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - ADAIR",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - ANDREW",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - ATCHISON",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - AUDRAIN",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - BARRY",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - BARTON",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - BATES",
+        "Conforming": "453100",
+        "FHA": " 318550 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - BENTON",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - BOLLINGER",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - BOONE",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - BUCHANAN",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - BUTLER",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - CALDWELL",
+        "Conforming": "453100",
+        "FHA": " 318550 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - CALLAWAY",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - CAMDEN",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - CAPE GIRARDEAU",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - CARROLL",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - CARTER",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - CASS",
+        "Conforming": "453100",
+        "FHA": " 318550 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - CEDAR",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - CHARITON",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - CHRISTIAN",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - CLARK",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - CLAY",
+        "Conforming": "453100",
+        "FHA": " 318550 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - CLINTON",
+        "Conforming": "453100",
+        "FHA": " 318550 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - COLE",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - COOPER",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - CRAWFORD",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - DADE",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - DALLAS",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - DAVIESS",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - DEKALB",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - DENT",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - DOUGLAS",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - DUNKLIN",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - FRANKLIN",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - GASCONADE",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - GENTRY",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - GREENE",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - GRUNDY",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - HARRISON",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - HENRY",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - HICKORY",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - HOLT",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - HOWARD",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - HOWELL",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - IRON",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - JACKSON",
+        "Conforming": "453100",
+        "FHA": " 318550 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - JASPER",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - JEFFERSON",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - JOHNSON",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - KNOX",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - LACLEDE",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - LAFAYETTE",
+        "Conforming": "453100",
+        "FHA": " 318550 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - LAWRENCE",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - LEWIS",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - LINCOLN",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - LINN",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - LIVINGSTON",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - MACON",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - MADISON",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - MARIES",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - MARION",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - MCDONALD",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - MERCER",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - MILLER",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - MISSISSIPPI",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - MONITEAU",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - MONROE",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - MONTGOMERY",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - MORGAN",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - NEW MADRID",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - NEWTON",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - NODAWAY",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - OREGON",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - OSAGE",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - OZARK",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - PEMISCOT",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - PERRY",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - PETTIS",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - PHELPS",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - PIKE",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - PLATTE",
+        "Conforming": "453100",
+        "FHA": " 318550 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - POLK",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - PULASKI",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - PUTNAM",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - RALLS",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - RANDOLPH",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - RAY",
+        "Conforming": "453100",
+        "FHA": " 318550 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - REYNOLDS",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - RIPLEY",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - SALINE",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - SCHUYLER",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - SCOTLAND",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - SCOTT",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - SHANNON",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - SHELBY",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - ST. CHARLES",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - ST. CLAIR",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - ST. FRANCOIS",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - ST. LOUIS",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - ST. LOUIS CITY",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - STE. GENEVIEVE",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - STODDARD",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - STONE",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - SULLIVAN",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - TANEY",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - TEXAS",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - VERNON",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - WARREN",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - WASHINGTON",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - WAYNE",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - WEBSTER",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - WORTH",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Missouri - WRIGHT",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - ALLEN",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - ANDERSON",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - ATCHISON",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - BARBER",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - BARTON",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - BOURBON",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - BROWN",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - BUTLER",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - CHASE",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - CHAUTAUQUA",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - CHEROKEE",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - CHEYENNE",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - CLARK",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - CLAY",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - CLOUD",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - COFFEY",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - COMANCHE",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - COWLEY",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - CRAWFORD",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - DECATUR",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - DICKINSON",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - DONIPHAN",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - DOUGLAS",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - EDWARDS",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - ELK",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - ELLIS",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - ELLSWORTH",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - FINNEY",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - FORD",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - FRANKLIN",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - GEARY",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - GOVE",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - GRAHAM",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - GRANT",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - GRAY",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - GREELEY",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - GREENWOOD",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - HAMILTON",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - HARPER",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - HARVEY",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - HASKELL",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - HODGEMAN",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - JACKSON",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - JEFFERSON",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - JEWELL",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - JOHNSON",
+        "Conforming": "453100",
+        "FHA": " 318550 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - KEARNY",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - KINGMAN",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - KIOWA",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - LABETTE",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - LANE",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - LEAVENWORTH",
+        "Conforming": "453100",
+        "FHA": " 318550 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - LINCOLN",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - LINN",
+        "Conforming": "453100",
+        "FHA": " 318550 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - LOGAN",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - LYON",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - MARION",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - MARSHALL",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - MCPHERSON",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - MEADE",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - MIAMI",
+        "Conforming": "453100",
+        "FHA": " 318550 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - MITCHELL",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - MONTGOMERY",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - MORRIS",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - MORTON",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - NEMAHA",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - NEOSHO",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - NESS",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - NORTON",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - OSAGE",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - OSBORNE",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - OTTAWA",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - PAWNEE",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - PHILLIPS",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - POTTAWATOMIE",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - PRATT",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - RAWLINS",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - RENO",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - REPUBLIC",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - RICE",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - RILEY",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - ROOKS",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - RUSH",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - RUSSELL",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - SALINE",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - SCOTT",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - SEDGWICK",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - SEWARD",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - SHAWNEE",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - SHERIDAN",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - SHERMAN",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - SMITH",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - STAFFORD",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - STANTON",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - STEVENS",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - SUMNER",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - THOMAS",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - TREGO",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - WABAUNSEE",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - WALLACE",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - WASHINGTON",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - WICHITA",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - WILSON",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - WOODSON",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Kansas - WYANDOTTE",
+        "Conforming": "453100",
+        "FHA": " 318550 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Oregon - BAKER",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Oregon - BENTON",
+        "Conforming": "453100",
+        "FHA": " 356500 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Oregon - CLACKAMAS",
+        "Conforming": "453100",
+        "FHA": " 448500 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Oregon - CLATSOP",
+        "Conforming": "453100",
+        "FHA": " 299000 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Oregon - COLUMBIA",
+        "Conforming": "453100",
+        "FHA": " 448500 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Oregon - COOS",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Oregon - CROOK",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Oregon - CURRY",
+        "Conforming": "453100",
+        "FHA": " 327750 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Oregon - DESCHUTES",
+        "Conforming": "453100",
+        "FHA": " 373750 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Oregon - DOUGLAS",
+        "Conforming": "453100",
+        "FHA": " 294515 ",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Oregon - GILLIAM",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Oregon - GRANT",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Oregon - HARNEY",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Oregon - HOOD RIVER",
+        "Conforming": "454250",
+        "FHA": "454250",
+        "VA": "454250",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Oregon - JACKSON",
+        "Conforming": "453100",
+        "FHA": "302450",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Oregon - JEFFERSON",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Oregon - JOSEPHINE",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Oregon - KLAMATH",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Oregon - LAKE",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Oregon - LANE",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Oregon - LINCOLN",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Oregon - LINN",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Oregon - MALHEUR",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Oregon - MARION",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Oregon - MORROW",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Oregon - MULTNOMAH",
+        "Conforming": "453100",
+        "FHA": "448500",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Oregon - POLK",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Oregon - SHERMAN",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Oregon - TILLAMOOK",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Oregon - UMATILLA",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Oregon - UNION",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Oregon - WALLOWA",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Oregon - WASCO",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Oregon - WASHINGTON",
+        "Conforming": "453100",
+        "FHA": "448500",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Oregon - WHEELER",
+        "Conforming": "453100",
+        "FHA": "294515",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    },
+    {
+        "County": "Oregon - YAMHILL",
+        "Conforming": "453100",
+        "FHA": "448500",
+        "VA": "453100",
+        "Jumbo": "1000000",
+        "> 625000": false
+    }
+]

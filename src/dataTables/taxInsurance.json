@@ -1,0 +1,32 @@
+[
+    {
+        "State": "Utah",
+        "Tax": "0.80%",
+        "Insurance": "0.27%"
+    },
+    {
+        "State": "Idaho",
+        "Tax": "0.77%",
+        "Insurance": "0.27%"
+    },
+    {
+        "State": "Colorado",
+        "Tax": "0.57%",
+        "Insurance": "0.60%"
+    },
+    {
+        "State": "Missouri",
+        "Tax": "1.00%",
+        "Insurance": "0.75%"
+    },
+    {
+        "State": "Kansas",
+        "Tax": "1.40%",
+        "Insurance": "0.80%"
+    },
+    {
+        "State": "Oregon",
+        "Tax": "0.80%",
+        "Insurance": "0.27%"
+    }
+]
