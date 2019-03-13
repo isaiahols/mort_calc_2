@@ -1,4 +1,4 @@
-const express = require(express)
+const express = require('express')
 const conv = require('./controller/Conventional')
 const fha = require('./controller/FHA')
 const va = require('./controller/VA')
@@ -21,4 +21,4 @@ app.post(`/api/conv/:rate`, conv.startConvCalc)
 
 
 const PORT = 4343
-app.listen(PORT, () => console.log(`here we are at PORT`))
+app.listen(PORT, () => console.log(`here we are at ${PORT}`))

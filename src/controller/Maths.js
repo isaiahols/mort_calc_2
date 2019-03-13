@@ -1,13 +1,20 @@
 
 module.exports = {
     // Tested 
-    pv: (rate, nper, pmt) => {
-        console.log('rate', rate)
-        let r = (rate / 100) / 12
-        let n = nper * 12
+    pv: (r, n, pmt) => {
+        // console.log('rate', rate)
+        // let r = (rate / 100) / 12
+        // let n = nper * 12
         let pValue = (pmt * (1 - Math.pow(1 + r, -n))) / r;
         return pValue;
     },
+    // pv: (rate, nper, pmt) => {
+    //     console.log('rate', rate)
+    //     let r = (rate / 100) / 12
+    //     let n = nper * 12
+    //     let pValue = (pmt * (1 - Math.pow(1 + r, -n))) / r;
+    //     return pValue;
+    // },
     // Tested
     pmt: (r, n, pv) => {
         return ((pv * r) / (1 - Math.pow(1 + r, -n)))

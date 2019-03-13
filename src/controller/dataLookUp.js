@@ -1,7 +1,7 @@
-const miTable = require('./dataTables/miTable.json');
-const taxInsurance = require('./dataTables/taxInsurance.json');
-const loanLimits = require('./dataTables/loanLimits.json');
-const fhaMiTable = require('./dataTables/fhaMiTable.json');
+const miTable = require('../dataTables/miTable.json');
+const taxInsurance = require('../dataTables/taxInsurance.json');
+const loanLimits = require('../dataTables/loanLimits.json');
+const fhaMiTable = require('../dataTables/fhaMiTable.json');
 
 module.exports = {
     findInsuranceRate: (state) => {
@@ -37,12 +37,14 @@ module.exports = {
         return limit
     },
     // 
-    findLTV: (maxValue, downPmt, last) => {
+    findLTV: (maxValue, downPmt) => {
         let ltv = maxValue / (maxValue + (downPmt * 1));
 
         ltv = (ltv * 100).toFixed(2)
+        console.log({ltv})
         if (ltv > 97) {
             console.log('LTV is too high', ltv);
+            return NaN
         }
 
         return ltv;
@@ -62,10 +64,13 @@ module.exports = {
             let upperLimit = ltvRange.slice(6).join('') * 1;
             let lowerLimit = ltvRange.slice(0, 5).join('') * 1;
 
+            // console.log({ ltv, upperLimit, lowerLimit })
             if (ltv <= upperLimit && ltv >= lowerLimit) {
                 return e
             }
         })
+        // console.log({ ltvFiltered })
+
         // get rate based on length of loan
         let rate = years <= 20 ? ltvFiltered["<= 20 yr"] : ltvFiltered["> 20 yr"];
         rate = rate.slice(0, 4) / 100
