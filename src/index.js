@@ -1,8 +1,8 @@
-const express = require('express')
-const conv = require('./controller/Conventional')
-const fha = require('./controller/FHA')
-const va = require('./controller/VA')
-const jumbo = require('./controller/Jumbo')
+const express = require('express');
+const conv = require('./controller/Conventional');
+const fha = require('./controller/FHA');
+const va = require('./controller/VA');
+const jumbo = require('./controller/Jumbo');
 
 const app = express()
 
