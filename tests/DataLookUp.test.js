@@ -29,3 +29,30 @@ describe('Testing LTV Finding Function', () => {
     })
 })
 
+describe('Testing FHA MI Function', () => {
+    test('returns a number', () => {
+        const ltv = 88
+        const years = 30
+        expect(typeof DLU.findFHAMI(ltv, years)).toBe('number')
+    })
+    test('returns correct number for ltv: 88 years:30', () => {
+        const ltv = 88
+        const years = 30
+        expect(DLU.findFHAMI(ltv, years)).toBe(.0080)
+    })
+    test('returns correct number for ltv: 96 years:30', () => {
+        const ltv = 96
+        const years = 30
+        expect(DLU.findFHAMI(ltv, years)).toBe(.0085)
+    })
+    test('returns correct number for ltv: 76 years:10', () => {
+        const ltv = 76
+        const years = 10
+        expect(DLU.findFHAMI(ltv, years)).toBe(.0045)
+    })
+    test('returns correct number for ltv: 92 years:10', () => {
+        const ltv = 92
+        const years = 10
+        expect(DLU.findFHAMI(ltv, years)).toBe(.0070)
+    })
+})
