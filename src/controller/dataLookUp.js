@@ -4,14 +4,14 @@ const loanLimits = require('../dataTables/loanLimits.json');
 const fhaMiTable = require('../dataTables/fhaMiTable.json');
 
 module.exports = {
-    findInsuranceRate: (state) => {
+    findInsuranceRate: (state = 'Utah') => {
         const stateFiltered = taxInsurance.find(e => {
             return e.State === state
         })
 
         const insuranceRate = stateFiltered.Insurance.slice(0, 4) / 100
 
-        return insuranceRate
+        return insuranceRate || 0
     },
     findTaxRate: (state) => {
         const stateFiltered = taxInsurance.find(e => {
@@ -40,14 +40,14 @@ module.exports = {
     findLTV: (maxValue, downPmt) => {
         let ltv = maxValue / (maxValue + (downPmt * 1));
 
-        ltv = (ltv * 100).toFixed(2)
-        console.log({ltv})
+        ltv = +(ltv * 100).toFixed(2)
+        // console.log({ ltv })
         if (ltv > 97) {
             console.log('LTV is too high', ltv);
             return NaN
         }
 
-        return ltv;
+        return ltv
     },
     findConvMI: (credit, ltv, years) => {
         const creditFiltered = miTable.filter(e => {
