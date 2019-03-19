@@ -1,36 +1,8 @@
-const dataLookUp = require('./dataLookUp');
+const dataLookUp = require('./DataLookUp');
 const Maths = require('./Maths');
 
 
 const conventional = {
-    // convCalc(rate, years, pv, max, extra, count = 0) {
-    //     // rate is integer ex. 4
-    //     const r = Maths.rateConverter(rate);
-    //     // years is integer ex. 12
-    //     // n is months 
-    //     const n = Maths.nperConverter(years);
-    //     let mi = 0;
-
-    //     // const pay = Maths.pmt(r, n, pv)
-
-
-    //     const ltv = logic.findLTV(pv, extra.downPmt);
-    //     extra.ltv = ltv;
-
-    //     if (extra.ltv > 80) {
-    //         extra.miRate = logic.findMI(extra.credit, ltv, extra.years, extra.loanType);
-    //         // console.log("MI rate", extra.miRate)
-
-    //         mi = (extra.miRate * (pv / 12));
-    //         // console.log("ltv", ltv)
-    //     }
-
-
-    //     let tax = (pv + extra.downPmt) * extra.taxRate / 12;
-    //     let insurance = (pv + extra.downPmt) * extra.insureRate / 12;
-    //     let pim = 0;
-
-    // },
     convData(rate, years, state, county) {
         const r = Maths.rateConverter(rate);
         const n = Maths.nperConverter(years);
@@ -96,6 +68,8 @@ const conventional = {
 
     },
     async startConvCalc(req, res) {
+
+
 
         const {
             years,

@@ -9,11 +9,22 @@ const app = express()
 
 app.use(express.json())
 
+app.use((req,res,next)=>{
+    console.log('top level', req.query)
+    next()
+})
+
+const middleware = (req, res, next) => {
+    console.log('request level')
+    next()
+}
+
+
 /**End Points */
 
 // app.get(`/api/rate`, )
 
-app.post(`/api/conv/:rate`, conv.startConvCalc)
+app.post(`/api/conv/:rate`,middleware, conv.startConvCalc)
 // app.post(`/api/fha`,)
 // app.post(`/api/va`,)
 // app.post(`/api/jumbo`,)

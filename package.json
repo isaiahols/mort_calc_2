@@ -5,8 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "lint": "eslint src/controller**",
-    "test": "jest src",
-    "coverage": "jest --collectCoverageFrom=src/**.js --coverage src"
+    "test": "jest tests",
+    "coverage": "jest --collectCoverageFrom=src/**.js --coverage tests"
   },
   "keywords": [],
   "author": "",

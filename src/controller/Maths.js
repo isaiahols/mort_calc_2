@@ -1,34 +1,30 @@
 
-module.exports = {
-    // Tested 
+const Maths = {
+    // Tested
     pv: (r, n, pmt) => {
-        // console.log('rate', rate)
-        // let r = (rate / 100) / 12
-        // let n = nper * 12
         let pValue = (pmt * (1 - Math.pow(1 + r, -n))) / r;
+        pValue = Math.round(pValue)
         return pValue;
     },
-    // pv: (rate, nper, pmt) => {
-    //     console.log('rate', rate)
-    //     let r = (rate / 100) / 12
-    //     let n = nper * 12
-    //     let pValue = (pmt * (1 - Math.pow(1 + r, -n))) / r;
-    //     return pValue;
-    // },
     // Tested
     pmt: (r, n, pv) => {
-        return ((pv * r) / (1 - Math.pow(1 + r, -n)))
+        let pmt = ((pv * r) / (1 - Math.pow(1 + r, -n)))
+        return Math.round(pmt)
     },
-
+    //
     maxLoanDP: (dp) => {
         return (dp / .03) - dp
     },
+    // Jest Tested
     rateConverter: (rate) => {
-        return (rate / 100) / 12
+        let r = (rate / 100) / 12
+        r = Math.round(r * 100000) / 100000
+        return r
     },
-
+    // Jest Tested
     nperConverter: (nper) => {
-        return nper * 12
+        let n = nper * 12
+        return n
     },
 
     maxPmt: (income, debts, alimony, childSupport, childCareVA, hoa, type) => {
@@ -49,3 +45,5 @@ module.exports = {
     }
 
 }
+
+module.exports=Maths
