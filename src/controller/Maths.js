@@ -15,6 +15,9 @@ const Maths = {
     maxLoanDP: (dp) => {
         return (dp / .03) - dp
     },
+    maxLoanDPFHA: (dp) => {
+        return (dp / .035) - dp
+    },
     // Jest Tested
     rateConverter: (rate) => {
         let r = (rate / 100) / 12
