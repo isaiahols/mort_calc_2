@@ -56,3 +56,79 @@ describe('Testing FHA MI Function', () => {
         expect(DLU.findFHAMI(ltv, years)).toBe(.0070)
     })
 })
+
+describe('Test County Limit finding function', () => {
+    test('should return number', () => {
+        const state = 'Utah';
+        const county = 'Salt Lake';
+        const type = 'Conv.';
+        expect(typeof DLU.findCountyLimit(state, county, type)).toBe('number')
+    })
+    test('should return correct result conv.', () => {
+        const state = 'Utah';
+        const county = 'Salt Lake';
+        const type = 'Conv.';
+        expect(DLU.findCountyLimit(state, county, type)).toBe(600300)
+    })
+    test('should return correct result conv.', () => {
+        const state = 'Idaho';
+        const county = 'ADAMS';
+        const type = 'Conv.';
+        expect(DLU.findCountyLimit(state, county, type)).toBe(453100)
+    })
+    test('should return number', () => {
+        const state = 'Utah';
+        const county = 'Salt Lake';
+        const type = 'FHA';
+        expect(typeof DLU.findCountyLimit(state, county, type)).toBe('number')
+    })
+    test('should return correct result FHA', () => {
+        const state = 'Utah';
+        const county = 'Salt Lake';
+        const type = 'FHA';
+        expect(DLU.findCountyLimit(state, county, type)).toBe(356500)
+    })
+    test('should return correct result FHA', () => {
+        const state = 'Idaho';
+        const county = 'ADAMS';
+        const type = 'FHA';
+        expect(DLU.findCountyLimit(state, county, type)).toBe(294515)
+    })
+    test('should return number', () => {
+        const state = 'Utah';
+        const county = 'Salt Lake';
+        const type = 'VA';
+        expect(typeof DLU.findCountyLimit(state, county, type)).toBe('number')
+    })
+    test('should return correct result VA', () => {
+        const state = 'Utah';
+        const county = 'Salt Lake';
+        const type = 'VA';
+        expect(DLU.findCountyLimit(state, county, type)).toBe(600300)
+    })
+    test('should return correct result VA', () => {
+        const state = 'Idaho';
+        const county = 'ADAMS';
+        const type = 'VA';
+        expect(DLU.findCountyLimit(state, county, type)).toBe(453100)
+    })
+    test('should return number', () => {
+        const state = 'Utah';
+        const county = 'Salt Lake';
+        const type = 'Jumbo';
+        expect(typeof DLU.findCountyLimit(state, county, type)).toBe('number')
+    })
+    test('should return correct result Jumbo', () => {
+        const state = 'Utah';
+        const county = 'Salt Lake';
+        const type = 'Jumbo';
+        expect(DLU.findCountyLimit(state, county, type)).toBe(1000000)
+    })
+    test('should return correct result Jumbo', () => {
+        const state = 'Idaho';
+        const county = 'ADAMS';
+        const type = 'Jumbo';
+        expect(DLU.findCountyLimit(state, county, type)).toBe(1000000)
+    })
+
+})
