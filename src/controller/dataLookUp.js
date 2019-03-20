@@ -22,6 +22,7 @@ module.exports = {
 
         return taxRate
     },
+    // Jest Tested
     findCountyLimit: (state, county, type) => {
         const searchTerm = `${state} - ${county.toUpperCase()}`;
         const foundCounty = loanLimits.find(e => {
@@ -75,6 +76,7 @@ module.exports = {
         rate = rate.slice(0, 4) / 100
         return rate
     },
+    // Jest Tested
     findFHAMI: (ltv, years) => {
         const yearRange = years <= 15 ? '<=15' : '>15';
         const yearFiltered = fhaMiTable.find((el) => el.years === yearRange)
