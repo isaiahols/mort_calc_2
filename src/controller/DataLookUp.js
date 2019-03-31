@@ -2,8 +2,10 @@ const miTable = require('../dataTables/miTable.json');
 const taxInsurance = require('../dataTables/taxInsurance.json');
 const loanLimits = require('../dataTables/loanLimits.json');
 const fhaMiTable = require('../dataTables/fhaMiTable.json');
+const vaFundingTable = require('../dataTables/VAFundingTable.json')
 
 module.exports = {
+    // Jest Tested
     findInsuranceRate: (state = 'Utah') => {
         const stateFiltered = taxInsurance.find(e => {
             return e.State === state
@@ -11,16 +13,17 @@ module.exports = {
 
         const insuranceRate = stateFiltered.Insurance.slice(0, 4) / 100
 
-        return insuranceRate || 0
+        return +insuranceRate.toFixed(4) || 0
     },
-    findTaxRate: (state) => {
+    // Jest Tested
+    findTaxRate: (state = 'Utah') => {
         const stateFiltered = taxInsurance.find(e => {
             return e.State === state
         })
 
         const taxRate = stateFiltered.Tax.slice(0, 4) / 100
 
-        return taxRate
+        return +taxRate.toFixed(4)
     },
     // Jest Tested
     findCountyLimit: (state, county, type) => {
@@ -49,6 +52,19 @@ module.exports = {
 
         return ltv
     },
+
+    findVaLTV: (maxValue, downPmt) => {
+        let ltv = maxValue / (maxValue + (downPmt * 1));
+
+        ltv = +(ltv * 100).toFixed(2)
+        if (ltv > 100) {
+            console.log('LTV is too high', ltv);
+            return NaN
+        }
+
+        return ltv
+    },
+    // Jest Tested
     findConvMI: (credit, ltv, years) => {
         const creditFiltered = miTable.filter(e => {
 
@@ -64,17 +80,15 @@ module.exports = {
             let upperLimit = ltvRange.slice(6).join('') * 1;
             let lowerLimit = ltvRange.slice(0, 5).join('') * 1;
 
-            // console.log({ ltv, upperLimit, lowerLimit })
-            if (ltv <= upperLimit && ltv >= lowerLimit) {
+            if (ltv <= upperLimit && ltv >= lowerLimit || ltv < 80 && lowerLimit === 80.01) {
                 return e
             }
         })
-        // console.log({ ltvFiltered })
 
         // get rate based on length of loan
         let rate = years <= 20 ? ltvFiltered["<= 20 yr"] : ltvFiltered["> 20 yr"];
         rate = rate.slice(0, 4) / 100
-        return rate
+        return +rate.toFixed(4)
     },
     // Jest Tested
     findFHAMI: (ltv, years) => {
@@ -90,5 +104,11 @@ module.exports = {
 
         const rate = yearFiltered.ltv[ltvRange] * 100 / 10000
         return rate
+    },
+    // Jest Tested
+    findVAFundingFee(vetType, vetUse, ltvType) {
+        const fundingType = vaFundingTable.find(each => each.type === vetType)
+        const fundingFee = fundingType.times[vetUse].ltv[ltvType]
+        return parseFloat(fundingFee)
     }
 }

@@ -9,7 +9,7 @@ const app = express()
 
 app.use(express.json())
 
-app.use((req,res, next)=>{
+app.use((req, res, next) => {
     console.log(req.query)
     next()
 })
@@ -20,7 +20,7 @@ app.use((req,res, next)=>{
 
 app.post(`/api/conv/:rate`, conv.startConvCalc)
 app.post(`/api/fha/:rate`, fha.startFHACalc)
-// app.post(`/api/va`,)
+app.post(`/api/va/:rate`, va.startVACalc)
 // app.post(`/api/jumbo`,)
 
 
