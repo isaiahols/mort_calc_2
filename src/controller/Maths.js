@@ -18,6 +18,9 @@ const Maths = {
     maxLoanDPFHA: (dp) => {
         return (dp / .035) - dp
     },
+    // maxLoanDPVA: (dp) => {
+
+    // },
     // Jest Tested
     rateConverter: (rate) => {
         let r = (rate / 100) / 12
@@ -29,7 +32,6 @@ const Maths = {
         let n = nper * 12
         return n
     },
-
     maxPmt: (income, debts, alimony, childSupport, childCareVA, hoa, type) => {
         let combinedRatio = .45;
         switch (type) {
@@ -37,7 +39,7 @@ const Maths = {
                 combinedRatio = .49
                 break;
             case "VA":
-                combinedRatio = .48
+                combinedRatio = .5
                 break;
             default:
                 combinedRatio = .45
@@ -49,4 +51,4 @@ const Maths = {
 
 }
 
-module.exports=Maths
+module.exports = Maths

@@ -28,7 +28,6 @@ const FHA = {
     //     const maxValue = Math.min(maxValueRatio, countyLimit, maxValueDP);
     // },
     FHACalc2(pv, dp, data, count = 0) {
-        console.log({ pv, dp, data, count })
 
         //ltv
         const ltv = dataLookUp.findLTV(pv, dp);
@@ -43,10 +42,10 @@ const FHA = {
         const mi = (pv * foundMI / 12); // Needs Testing
 
         //Max P&I
-        const pmtNew = data.pmt - tax - ins - mi
+        const pmtNew = data.pmt - tax - ins - mi - data.hoa
 
         const countyLimit = dataLookUp.findCountyLimit(data.state, data.county, 'FHA');
-        console.log({countyLimit})
+        console.log({ countyLimit })
         pv = Maths.pv(data.r, data.n, pmtNew)
         console.log({ pv })
         pv = pv >= countyLimit ? countyLimit : pv;
@@ -57,7 +56,7 @@ const FHA = {
             const fundingFee = (pv + dp) * .0175
             console.log(fundingFee)
             const maxValue = (pv + dp - fundingFee < dp) ? dp : pv + dp - fundingFee
-            const monthly = pmtNew + tax + mi + ins;
+            const monthly = pmtNew + tax + mi + ins + data.hoa;
 
             const returnData = {
                 maxHomeValue: maxValue,
@@ -65,6 +64,7 @@ const FHA = {
                 tax,
                 mortgageInsurance: mi,
                 homeInsurance: ins,
+                hoa: data.hoa,
                 monthly,
             }
             console.log('end of count', count)
@@ -92,10 +92,12 @@ const FHA = {
             downPmt,
         } = req.body
         const { rate } = req.params
-        const max = Maths.maxPmt(income, debts, alimony, childSupport, childCareVA, hoa, 'FHA')
+        const hoaMonthly = hoa / 12
+        const max = Maths.maxPmt(income, debts, alimony, childSupport, childCareVA, hoaMonthly, 'FHA')
         const data = FHA.FHAData(rate, years, state, county)
         data.credit = credit
         data.pmt = max
+        data.hoa = hoaMonthly;
 
         const countyLimit = dataLookUp.findCountyLimit(state, county, 'FHA');
         const maxValueDP = Maths.maxLoanDPFHA(downPmt);

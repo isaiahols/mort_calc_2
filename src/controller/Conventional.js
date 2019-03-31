@@ -40,19 +40,22 @@ const conventional = {
         }
 
         //Max P&I
-        const pmtNew = data.pmt - tax - ins - mi
+        const pmtNew = data.pmt - tax - ins - mi - data.hoa
 
         pv = Maths.pv(data.r, data.n, pmtNew)
         console.log({ pv })
 
         // BASE CASE //
         if (count > 3) {
+            const monthly = pmtNew + tax + mi + ins + data.hoa;
             const returnData = {
                 maxHomeValue: pv + dp,
                 'p&i': pmtNew,
                 tax,
                 mortgageInsurance: mi,
                 homeInsurance: ins,
+                hoa: data.hoa,
+                monthly,
             }
             console.log('end of count', count)
             console.log('results', pv + dp, pv, dp)
@@ -85,27 +88,14 @@ const conventional = {
             downPmt,
         } = req.body
         const { rate } = req.params
-        const max = Maths.maxPmt(income, debts, alimony, childSupport, childCareVA, hoa, 'Conv.')
+        const hoaMonthly = hoa / 12
+
+        const max = Maths.maxPmt(income, debts, alimony, childSupport, childCareVA, hoaMonthly, 'Conv.')
         const data = conventional.convData(rate, years, state, county)
         data.credit = credit
         data.pmt = max
-        // console.log({ data, rate })
-
-
-
-        // console.log({
-        //     income,
-        //     debts,
-        //     alimony,
-        //     childSupport,
-        //     childCareVA,
-        //     hoa,
-        //     downPmt,
-        // })
-
-
-
-        // console.log({ max })
+        data.hoa = hoaMonthly;
+        
 
         const countyLimit = dataLookUp.findCountyLimit(state, county, 'Conv.');
         const maxValueDP = Maths.maxLoanDP(downPmt);
