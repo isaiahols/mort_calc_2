@@ -87,7 +87,7 @@ const FHA = {
             debts,
             alimony,
             childSupport,
-            childCareVA,
+            childCareVA=0,
             hoa,
             downPmt,
         } = req.body
