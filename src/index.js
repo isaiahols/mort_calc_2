@@ -10,13 +10,13 @@ const app = express()
 app.use(express.json())
 
 app.use((req, res, next) => {
-    console.log(req.query)
+    // console.log(req.query)
     next()
 })
 
 /**End Points */
 
-// app.get(`/api/rate`, ) // this is the 
+app.get(`/api/rate`, (req, res) => res.status(200).send({ rate: .04 })); // this is the 
 
 app.post(`/api/conv/:rate`, conv.startConvCalc)
 app.post(`/api/fha/:rate`, fha.startFHACalc)
