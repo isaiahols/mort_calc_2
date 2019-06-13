@@ -3,8 +3,10 @@ const conv = require('./controller/Conventional');
 const fha = require('./controller/FHA');
 const va = require('./controller/VA');
 const jumbo = require('./controller/Jumbo');
+const cors = require('cors')
 
 const app = express()
+app.use(cors())
 
 
 app.use(express.json())
