@@ -32,7 +32,7 @@ const Maths = {
         let n = nper * 12
         return n
     },
-    maxPmt: (income, debts, alimony, childSupport, childCareVA, hoa, type) => {
+    maxPmt: (income, debts, alimony, childSupport, childCare, hoa, type) => {
         let combinedRatio = .45;
         switch (type) {
             case "FHA":
@@ -45,7 +45,7 @@ const Maths = {
                 combinedRatio = .45
                 break;
         }
-        const maxPayment = (combinedRatio * income) - (debts + alimony + childSupport + childCareVA + hoa);
+        const maxPayment = (combinedRatio * income) - (debts + alimony + childSupport + childCare + hoa);
         return maxPayment;
     }
 

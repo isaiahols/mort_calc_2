@@ -39,7 +39,7 @@ const va = {
 
         const fundingFeeRate = dataLookUp.findVAFundingFee(vetType, vetUse, ltvText)
         const fundingFee = (fundingFeeRate / 100) * maxPV
-        console.log('MAX PV: ', fundingFee)
+        // console.log('MAX PV: ', fundingFee)
         return vetDisability ? 0 : fundingFee
 
     },
@@ -56,15 +56,15 @@ const va = {
         //ins
         let ins = (pv + dp) * insRate / 12; //Needs Testing
 
-        //Max P&I
+        //Max pAndI
         const pmtNew = pmt - tax - ins - hoa
 
         const countyLimit = dataLookUp.findCountyLimit(state, county, 'VA');
-        console.log({ countyLimit })
+        // console.log({ countyLimit })
         pv = Maths.pv(r, n, pmtNew)
-        console.log({ pv })
+        // console.log({ pv })
         pv = pv >= countyLimit ? countyLimit : pv;
-        console.log({ pv })
+        // console.log({ pv })
 
         // BASE CASE //
         if (count > 3) {
@@ -73,13 +73,13 @@ const va = {
             const monthly = pmtNew + tax + ins + hoa;
 
             const returnData = {
-                maxHomeValue: maxValue,
-                'p&i': pmtNew,
-                tax,
+                maxHomeValue: Math.round(maxValue),
+                pAndI: Math.round(pmtNew),
+                tax: Math.round(tax),
                 mortgageInsurance: 0,
-                homeInsurance: ins,
-                hoa,
-                monthly,
+                homeInsurance: Math.round(ins),
+                hoa: Math.round(hoa),
+                monthly: Math.round(monthly),
             }
             return returnData
         }
@@ -99,7 +99,7 @@ const va = {
             debts,
             alimony,
             childSupport,
-            childCareVA,
+            childCare,
             hoa,
             downPmt,
             vetType,
@@ -108,8 +108,8 @@ const va = {
         } = req.body
         const { rate } = req.params
         const hoaMonthly = hoa / 12
-        const max = Maths.maxPmt(income, debts, alimony, childSupport, childCareVA, hoaMonthly, 'VA')
-        console.log({ max })
+        const max = Maths.maxPmt(income, debts, alimony, childSupport, childCare, hoaMonthly, 'VA')
+        // console.log({ max })
         const data = va.vaData(rate, years, state, county)
         data.credit = credit;
         data.pmt = max;
@@ -126,7 +126,7 @@ const va = {
 
         const result = va.vaCalc2(maxValue, downPmt, data)
 
-        console.log({ result })
+        // console.log({ result })
         res.status(200).send({ result })
 
     }
