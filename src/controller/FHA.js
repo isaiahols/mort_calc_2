@@ -41,34 +41,34 @@ const FHA = {
         const foundMI = dataLookUp.findFHAMI(ltv, data.years);
         const mi = (pv * foundMI / 12); // Needs Testing
 
-        //Max P&I
+        //Max pAndI
         const pmtNew = data.pmt - tax - ins - mi - data.hoa
 
         const countyLimit = dataLookUp.findCountyLimit(data.state, data.county, 'FHA');
-        console.log({ countyLimit })
+        // console.log({ countyLimit })
         pv = Maths.pv(data.r, data.n, pmtNew)
-        console.log({ pv })
+        // console.log({ pv })
         pv = pv >= countyLimit ? countyLimit : pv;
-        console.log({ pv })
+        // console.log({ pv })
 
         // BASE CASE //
         if (count > 3) {
             const fundingFee = (pv + dp) * .0175
-            console.log(fundingFee)
+            // console.log(fundingFee)
             const maxValue = (pv + dp - fundingFee < dp) ? dp : pv + dp - fundingFee
             const monthly = pmtNew + tax + mi + ins + data.hoa;
 
             const returnData = {
                 maxHomeValue: maxValue,
-                'p&i': pmtNew,
+                pAndI: pmtNew,
                 tax,
                 mortgageInsurance: mi,
                 homeInsurance: ins,
                 hoa: data.hoa,
                 monthly,
             }
-            console.log('end of count', count)
-            console.log('results', maxValue, pv, dp)
+            // console.log('end of count', count)
+            // console.log('results', maxValue, pv, dp)
             return returnData
         }
 
@@ -87,13 +87,13 @@ const FHA = {
             debts,
             alimony,
             childSupport,
-            childCareVA=0,
+            childCare = 0,
             hoa,
             downPmt,
         } = req.body
         const { rate } = req.params
         const hoaMonthly = hoa / 12
-        const max = Maths.maxPmt(income, debts, alimony, childSupport, childCareVA, hoaMonthly, 'FHA')
+        const max = Maths.maxPmt(income, debts, alimony, childSupport, childCare, hoaMonthly, 'FHA')
         const data = FHA.FHAData(rate, years, state, county)
         data.credit = credit
         data.pmt = max
@@ -107,7 +107,7 @@ const FHA = {
 
         const result = FHA.FHACalc2(maxValue, downPmt, data)
 
-        console.log({ result })
+        // console.log({ result })
         res.status(200).send({ result })
 
     }

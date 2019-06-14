@@ -29,7 +29,7 @@ module.exports = {
     findCountyLimit: (state, county, type) => {
         const searchTerm = `${state} - ${county.toUpperCase()}`;
         const foundCounty = loanLimits.find(e => {
-
+            const hello = e
             return e.County === searchTerm
         })
         if (type === 'Conv.') {
@@ -46,7 +46,7 @@ module.exports = {
 
         ltv = +(ltv * 100).toFixed(2)
         if (ltv > 97) {
-            console.log('LTV is too high', ltv);
+            // console.log('LTV is too high', ltv);
             return NaN
         }
 
@@ -58,7 +58,7 @@ module.exports = {
 
         ltv = +(ltv * 100).toFixed(2)
         if (ltv > 100) {
-            console.log('LTV is too high', ltv);
+            // console.log('LTV is too high', ltv);
             return NaN
         }
 
@@ -107,7 +107,9 @@ module.exports = {
     },
     // Jest Tested
     findVAFundingFee(vetType, vetUse, ltvType) {
-        const fundingType = vaFundingTable.find(each => each.type === vetType)
+        const fundingType = vaFundingTable.find(each => {
+            return each.type === vetType
+        })
         const fundingFee = fundingType.times[vetUse].ltv[ltvType]
         return parseFloat(fundingFee)
     }
