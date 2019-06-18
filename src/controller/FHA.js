@@ -60,12 +60,12 @@ const FHA = {
 
             const returnData = {
                 maxHomeValue: maxValue,
-                pAndI: pmtNew,
-                tax,
-                mortgageInsurance: mi,
-                homeInsurance: ins,
-                hoa: data.hoa,
-                monthly,
+                pAndI: Math.round(pmtNew),
+                mortgageInsurance: Math.round(mi),
+                homeInsurance: Math.round(ins),
+                tax: Math.round(tax),
+                hoa: Math.round(data.hoa),
+                monthly: Math.round(monthly),
             }
             // console.log('end of count', count)
             // console.log('results', maxValue, pv, dp)

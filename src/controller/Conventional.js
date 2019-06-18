@@ -51,9 +51,9 @@ const conventional = {
             const returnData = {
                 maxHomeValue: pv + dp,
                 pAndI: Math.round(pmtNew),
-                tax: Math.round(tax),
                 mortgageInsurance: Math.round(mi),
                 homeInsurance: Math.round(ins),
+                tax: Math.round(tax),
                 hoa: Math.round(data.hoa),
                 monthly: Math.round(monthly),
             }

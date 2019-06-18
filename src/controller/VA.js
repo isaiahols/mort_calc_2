@@ -75,9 +75,9 @@ const va = {
             const returnData = {
                 maxHomeValue: Math.round(maxValue),
                 pAndI: Math.round(pmtNew),
-                tax: Math.round(tax),
                 mortgageInsurance: 0,
                 homeInsurance: Math.round(ins),
+                tax: Math.round(tax),
                 hoa: Math.round(hoa),
                 monthly: Math.round(monthly),
             }
